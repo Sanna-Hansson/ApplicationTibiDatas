@@ -14,7 +14,7 @@ internal class RoleService
         _roleRepository = roleRepository;
     }
 
-    public RoleEntity CreateNewAddress(string roleName)
+    public RoleEntity CreateNewRoles(string roleName)
     {
         var roleEntity = _roleRepository.Get(
         x => x.RoleName == roleName       

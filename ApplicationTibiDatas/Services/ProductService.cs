@@ -17,7 +17,7 @@ internal class ProductService
         _categoryService = categoryService;
     }
 
-    //Create annorlunda
+   
    public ProductEntity CreateProduct(string title, decimal price, string categoryName )
     {
         var categoryEntity = _categoryService.CreateCategory(categoryName);
