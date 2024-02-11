@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ApplicationTibiDatas.Entities;
 
-internal class CategoryEntity
+public class CategoryEntity
 {
     [Key]
     public int Id { get; set; }
